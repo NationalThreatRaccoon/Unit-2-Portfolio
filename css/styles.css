@@ -1,6 +1,5 @@
-* {
-  box-sizing: border-box;
-}
+
+/*--image styles--*/
 
 .prof-img {
   border-radius: 90%;
@@ -11,17 +10,18 @@
 .cont-img {
   width: 400px;
   box-sizing: border-box;
+  padding: 0;
   max-width:100%;
   max-height:100%;
 
 }
 
+/* -- style classes -- */
+
 .header {
   background: linear-gradient(0deg, #131313, transparent),
               url('../images/neon.png') no-repeat center;
-
-background-size: cover;
-
+  background-size: cover;
   color: #00BCFE;
   text-shadow: ;
   font-weight: bold;
@@ -35,7 +35,7 @@ background-size: cover;
 
 }
 
-/* Pseudo-classes ------------------ */
+/* -- links -- */
 
 a:link {
   color: #EB00FE;
@@ -58,23 +58,27 @@ a:active {
 
 /*----Boxes---*/
 
+.cont-container {
+  margin: 0 auto;
 
+}
 .content {
-  display: block;
   box-sizing: border-box;
   color: white;
   text-align: center;
-  padding: 4% 10%;
+  padding: 0 3px;
   border-top: 10px solid #04DEFE;
-  margin: 20px;
+  margin-bottom: 15px;
   background: #383738;
   max-width: 300px;
-  max-height: 400px;
+  max-height: 450px;
 
   overflow: hidden;
 
   border-radius: 80px 15px 0 15px;
 }
+
+
 
 .content:hover {
       border-top: 10px solid #6C00FE;
@@ -82,7 +86,7 @@ a:active {
       box-shadow: 2px 4px 15px #FF00D1;
 }
 
-
+/* -- style content -- */
 
 body {
   margin: 0;
@@ -92,6 +96,12 @@ body {
   font-size: 1.5rem;
   color: #E000FF;
   background: #131313;
+
+}
+
+div {
+  margin: 0 auto;
+
 }
 
 div h2 {
@@ -142,33 +152,10 @@ nav ul li {
 
 .name {
   text-align: center;
-
-
 }
 
-/* Float Clearfix ------------------ */
+/* --------------media ------------------ */
 
 
 @media (min-width: 768px) {
-  nav ul li {
-        display: inline-grid;
-        text-align: right;
-  }
-
-  .name {
-    text-align: left;
-    display: inline-block;
-  }
-
-  .content {
-    text-align: center;
-    box-sizing: border-box;
-    display: inline-block;
-    padding: 0;
-    width: 300px;
-    height: 300px;
-    margin: 3% 2%;
-    float: left;
-    overflow: scroll;
-  }
 }
