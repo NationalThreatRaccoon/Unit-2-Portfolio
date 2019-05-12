@@ -3,7 +3,7 @@
 
 .prof-img {
   border-radius: 90%;
-  border: 5px dashed purple;
+  border: 5px solid purple;
   text-align: center;
 }
 
@@ -35,6 +35,22 @@
 
 }
 
+.foot-parent {
+  border-top: 5px dashed purple;
+  padding-top: 16px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.foot-parent ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav-parent {
+  box-sizing: content-box;
+}
+
 /* -- links -- */
 
 a:link {
@@ -59,19 +75,22 @@ a:active {
 /*----Boxes---*/
 
 .cont-container {
+  width: 90%;
+  max-width: 1920px;
   margin: 0 auto;
+
 
 }
 .content {
   box-sizing: border-box;
   color: white;
-  text-align: center;
   padding: 0 3px;
   border-top: 10px solid #04DEFE;
   margin-bottom: 15px;
   background: #383738;
   max-width: 300px;
   max-height: 450px;
+  display: block;
 
   overflow: hidden;
 
@@ -154,8 +173,26 @@ nav ul li {
   text-align: center;
 }
 
+.name-footer {
+  float: left;
+}
+
+.return {
+  float: right;
+}
+
+.bottom {
+  border-top: 5px solid grey;
+  background-color: blue;
+
+}
+
+
 /* --------------media ------------------ */
 
 
 @media (min-width: 768px) {
+  .cont-container {
+    margin: inherit;
+  }
 }
