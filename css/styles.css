@@ -24,7 +24,6 @@
               url('../images/neon.png') no-repeat center;
   background-size: cover;
   color: #00BCFE;
-  text-shadow: ;
   font-weight: bold;
   text-shadow: 4px 2px 9px #F20DFF;
   text-align: center;
@@ -38,15 +37,16 @@
 
 .foot-parent {
   border-top: 5px solid purple;
+  border-bottom: 5px solid purple;
   padding-top: 16px;
   margin: 0 auto;
   background-color: #494848;
+  border-radius: 15px;
 }
 
 .foot-cont {
   text-align: center;
   list-style-type: none;
-  border-bottom: 5px solid purple;
 }
 
 
@@ -100,7 +100,6 @@ li a:active {
 
   border-radius: 80px 15px 0 15px;
 }
-
 
 
 .content:hover {
@@ -177,6 +176,7 @@ nav ul {
 
 .name-footer {
   float: left;
+  text-shadow: 3px 3px 6px #00B4FE;
 }
 
 .return {
@@ -187,8 +187,44 @@ nav ul {
   background-color: #282828;
 
 }
+/* --------------Skills Content ------------------ */
+.skills {
+  border-top: 5px solid purple;
+  border-radius: 15px;
+  border-bottom: 5px solid purple;
+  margin-bottom: 16px;
+  background-color: #494848;
+}
+
+.skills-head {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.skills p {
+  padding-top: 0;
+  padding-left: 10px;
+  margin; 0;
+  color: #FDFDFE;
+  background-color:
+
+}
+
+.skills-list {
+  list-style-type: upper-roman;
+  color: #FDFDFE;
+  text-shadow: 1px 1px 3px #00B4FE;
 
 
+
+}
+
+.skills-list li {
+  padding-bottom: 16px;
+  margin: 0 6px 5px 9px;
+  border-radius: 10px 10px 70px 10px;
+  background-color: linear-gradient(#190044, #620AFE)
+}
 /* --------------media ------------------ */
 
 
