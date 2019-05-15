@@ -3,6 +3,88 @@
 }
 
 
+
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: 'VT323', monospace;
+  font-size: 1.5rem;
+  color: #E000FF;
+  background: #282828;
+
+}
+
+div {
+  margin: 0 auto;
+
+}
+
+div h2 {
+  text-align: center;
+  font-family: 'Gugi', cursive;
+  padding-bottom: 0;
+  font-size: 1.6rem;
+  font-style: bold;
+}
+
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+  color: #00ABFE;
+  text-shadow: 2px 5px 4px #EB00FE;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  background: url('') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 12px;
+  margin-bottom: 6px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+  text-align: center;
+  margin:3px 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Russo One', sans-serif;
+  list-style-type: none;
+  border: 3px solid #FE0089;
+  background-color: #7C7B7B;
+  display: block;
+}
+
+.name {
+  text-align: center;
+}
+
+.name-footer {
+  float: left;
+  text-shadow: 3px 3px 6px #00B4FE;
+  padding-left: 12px;
+}
+
+.return {
+  float: right;
+  padding-right: 24px;
+}
+
+.bottom {
+  background-color: #282828;
+
+}
+
 /*--image styles--*/
 
 .prof-img {
@@ -95,8 +177,9 @@ li a:active {
 /*----Boxes---*/
 
 .cont-container {
+  justify-content: center;
   width: 90%;
-  max-width: 1920px;
+  max-width: 1024px;
   margin: 0 auto;
 
 
@@ -132,86 +215,6 @@ li a:active {
 }
 
 /* -- style content -- */
-
-body {
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  font-family: 'VT323', monospace;
-  font-size: 1.5rem;
-  color: #E000FF;
-  background: #282828;
-
-}
-
-div {
-  margin: 0 auto;
-
-}
-
-div h2 {
-  text-align: center;
-  font-family: 'Gugi', cursive;
-  padding-bottom: 0;
-  font-size: 1.6rem;
-  font-style: bold;
-}
-
-
-h1 {
-  font-family: 'Russo One', sans-serif;
-  color: #00ABFE;
-  text-shadow: 2px 5px 4px #EB00FE;
-  text-align: center;
-}
-
-header {
-  text-align: center;
-  background: url('') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 12px;
-  margin-bottom: 6px;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-.navigation li {
-  text-align: center;
-  margin:3px 10px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  text-transform: uppercase;
-  font-weight: bolder;
-  font-family: 'Russo One', sans-serif;
-  list-style-type: none;
-  border: 3px solid #FE0089;
-  background-color: #7C7B7B;
-  display: block;
-}
-
-.name {
-  text-align: center;
-}
-
-.name-footer {
-  float: left;
-  text-shadow: 3px 3px 6px #00B4FE;
-  padding-left: 12px;
-}
-
-.return {
-  float: right;
-  padding-right: 24px;
-}
-
-.bottom {
-  background-color: #282828;
-
-}
 /* --------------Skills Content ------------------ */
 .skills {
   border-top: 5px solid purple;
@@ -263,17 +266,10 @@ nav ul {
 @media (min-width: 768px) {
 
 
-  .cont-container {
-    width: 100%;
-    margin: 0 auto;
-    display: inline-block;
-  }
-
   .content {
     float: left;
-    margin-left: 7%;
+    margin-left: 3%;
     min-height: 450px;
-    overflow: scroll;
   }
 
 .top-content {
@@ -338,7 +334,6 @@ nav ul {
     float: left;
     margin-left: 3%;
     min-height: 450px;
-    overflow: scroll;
   }
 
   .skill-cont {
