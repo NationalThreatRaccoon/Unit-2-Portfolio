@@ -267,7 +267,6 @@ nav ul {
     float: left;
     margin-left: 3%;
     min-height: 450px;
-    display: inline-block;
 
   }
 
@@ -333,7 +332,6 @@ nav ul {
     float: left;
     margin-left: 3%;
     min-height: 450px;
-    display: inline-block;
   }
 
   .skill-cont {
