@@ -95,7 +95,7 @@ li a:active {
 /*----Boxes---*/
 
 .cont-container {
-  width: 90%;
+  width: 96.6%;
   max-width: 1024px;
   margin: 0 auto;
 
@@ -263,26 +263,21 @@ nav ul {
 @media (min-width: 768px) {
 
 
-  .content {
-    float: left;
-    margin-left: 3%;
-    min-height: 450px;
+  .top-content {
+    width: 100%;
+    margin-left: 0;
+    display: block;
 
   }
 
-.top-content {
-  width: 100%;
-  margin-left: 0;
-  display: block;
+    .prof-img {
+      float: right;
+      margin-right: 17px;
+      border-radius: 25px;
 
-}
+    }
 
-  .prof-img {
-    float: right;
-    margin-right: 17px;
-    border-radius: 25px;
 
-  }
 
 .text-style {
   padding-top: 40px;
@@ -300,6 +295,15 @@ nav ul {
   background: none;
   border: none;
 }
+
+.content {
+  float: left;
+  margin-left: 3%;
+  min-height: 450px;
+
+
+}
+
 .alt-bottom {
   visibility: visible;
   display: inline-flex;
