@@ -151,6 +151,15 @@ nav ul {
   box-sizing: content-box;
 }
 
+.title {
+  font-family: 'Russo One', sans-serif;
+  color: #00ABFE;
+  text-shadow: 2px 5px 4px #EB00FE;
+  text-align: center;
+  font-size: 2em;
+}
+
+
 /* -- links -- */
 
 li a:link {
@@ -175,7 +184,7 @@ li a:active {
 
 .cont-container {
   width: 96.6%;
-  max-width: 1024px;
+  max-width: 1112px;
   margin: 0 auto;
   text-align: center;
 
@@ -226,7 +235,7 @@ li a:active {
 .skills p {
   padding-top: 0;
   padding-left: 10px;
-  margin: 0;
+  margin-left: 25px;
   color: #FDFDFE;
   width: 95%;
 
@@ -263,21 +272,17 @@ li a:active {
 
 @media (min-width: 768px) {
 
-
   .top-content {
     width: 100%;
     margin-left: 0;
     display: block;
-
   }
 
     .prof-img {
       float: right;
       margin-right: 17px;
       border-radius: 25px;
-
     }
-
 
 
 .text-style {
@@ -289,21 +294,18 @@ li a:active {
 .navigation ul {
   display: inline;
   margin: 0 auto;
-
 }
+
 .navigation li {
   display: inline;
   background: none;
   border: none;
 }
 
-
 .content {
   display: inline-block;
   margin-left: 3%;
   min-height: 450px;
-
-
 }
 
 .alt-bottom {
@@ -312,13 +314,16 @@ li a:active {
   list-style-type: none;
   margin-right: 17px;
 }
+
 .alt-bottom li {
   padding-left: 16px;
 }
+
 .return {
   display: none;
 }
 }
+
 
 @media (min-width: 1024px) {
 
