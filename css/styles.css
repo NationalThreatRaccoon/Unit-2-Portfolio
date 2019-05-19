@@ -335,7 +335,7 @@ li a:active {
 
 main {
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 1200px;
 }
 
 .top-content {
@@ -354,6 +354,7 @@ main {
     float: left;
     padding-left: 55px;
   }
+  
 
   .content {
     float: left;
