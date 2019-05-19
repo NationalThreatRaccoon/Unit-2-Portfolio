@@ -5,15 +5,18 @@
 
 /* -- style content -- */
 
+html {
+  background-color: #232323;
+}
+
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   text-align: left;
   font-family: 'VT323', monospace;
   font-size: 1.5rem;
   color: #E000FF;
   background: #282828;
-
 }
 
 div {
@@ -34,6 +37,11 @@ h1 {
   color: #00ABFE;
   text-shadow: 2px 5px 4px #EB00FE;
   text-align: center;
+}
+
+h2 {
+  margin-top: 9px;
+  margin-bottom: 2px;
 }
 
 header {
@@ -103,8 +111,7 @@ nav ul {
 
 .skill-img {
   float: right;
-  margin-top: 36px;
-  margin-right: 17px;
+  margin: 10px 17px 4px 5px;;
   border: 4px solid #06ADFE;
   border-radius: 20%;
 
@@ -116,6 +123,7 @@ nav ul {
 /* -- style classes -- */
 
 .header {
+  width: 100%;
   background: linear-gradient(0deg, #282828, transparent),
               url('../images/neon.png') no-repeat center;
   background-size: cover;
@@ -134,7 +142,6 @@ nav ul {
 .foot-parent {
   border-top: 5px solid purple;
   border-bottom: 5px solid purple;
-  padding-top: 16px;
   margin: 0 auto;
   background-color: #494848;
   border-radius: 15px;
@@ -143,7 +150,7 @@ nav ul {
 .foot-cont {
   text-align: center;
   list-style-type: none;
-  width: 90%
+
 }
 
 
@@ -326,6 +333,16 @@ li a:active {
 
 
 @media (min-width: 1024px) {
+
+main {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.top-content {
+  max-width: 1024px;
+  margin: 0 auto;
+}
 
   .navigation {
     text-align: right;
