@@ -21,7 +21,6 @@ body {
 
 div {
   margin: 0 auto;
-
 }
 
 div h2 {
@@ -354,10 +353,9 @@ main {
     float: left;
     padding-left: 55px;
   }
-  
+
 
   .content {
-    float: left;
     min-height: 450px;
     margin: 10px;
   }
